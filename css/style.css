@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+.title-container{
+    background-color:salmon;
+    color: #fff;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-detail{
+    font-size: 3rem;
+    width: 0 auto;
+}
+.text-container{
+    font-size: 1.8rem;
+    background-color: seagreen;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-container p{
+    width: 50%;
+    height: 20rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+}
